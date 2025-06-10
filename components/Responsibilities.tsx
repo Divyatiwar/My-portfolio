@@ -1,9 +1,9 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { useInView } from "framer-motion"
-import { useRef } from "react"
-import { Users } from "lucide-react"
+import { motion } from "framer-motion";
+import { useInView } from "framer-motion";
+import { useRef } from "react";
+import { Users } from "lucide-react";
 
 const responsibilitiesData = [
   {
@@ -16,11 +16,21 @@ const responsibilitiesData = [
     organization: "JUET",
     period: "Aug. 2024 - Current",
   },
-]
+  {
+    position: "Coordinator, Art & Event Club",
+    organization: "JUET YOUTH CLUB (JYC)",
+    period: "Aug. 2023 - Aug. 2024",
+  },
+  {
+    position: "Volenteer, Art & Event Club",
+    organization: "JUET YOUTH CLUB (JYC)",
+    period: "Aug. 2022 - Aug. 2023",
+  },
+];
 
 export default function Responsibilities() {
-  const ref = useRef(null)
-  const isInView = useInView(ref, { once: true, margin: "-100px" })
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
     <section id="responsibilities" ref={ref} className="py-20 section-padding">
@@ -29,7 +39,9 @@ export default function Responsibilities() {
         animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
         transition={{ duration: 0.5 }}
       >
-        <h2 className="text-3xl md:text-4xl font-bold mb-12 gradient-text text-center">Positions of Responsibility</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-12 gradient-text text-center">
+          Positions of Responsibility
+        </h2>
 
         <div className="grid md:grid-cols-2 gap-8">
           {responsibilitiesData.map((item, index) => (
@@ -45,7 +57,9 @@ export default function Responsibilities() {
                   <Users size={24} />
                 </div>
                 <div>
-                  <h3 className="font-bold text-xl text-white">{item.position}</h3>
+                  <h3 className="font-bold text-xl text-white">
+                    {item.position}
+                  </h3>
                   <p className="text-purple-400">{item.organization}</p>
                   <p className="text-gray-300 text-sm">{item.period}</p>
                 </div>
@@ -55,5 +69,5 @@ export default function Responsibilities() {
         </div>
       </motion.div>
     </section>
-  )
+  );
 }

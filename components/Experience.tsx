@@ -1,33 +1,36 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { useInView } from "framer-motion"
-import { useRef } from "react"
-import { Briefcase } from "lucide-react"
+import { motion } from "framer-motion";
+import { useInView } from "framer-motion";
+import { useRef } from "react";
+import { Briefcase } from "lucide-react";
 
 const experienceData = [
+  {
+    position: "Data Analytics Intern",
+    company: "Yoshops",
+    period: "May 2025- Current",
+    type: "Remote",
+    description: [
+      "Working on real time data to clean,data minning,analysis and",
+      "understanding through creating dashboards by using powerbi tool.",
+    ],
+  },
   {
     position: "Python Programming Intern",
     company: "CodeSoft",
     period: "June 2024 - July 2024",
     type: "Virtual",
-    description: ["Executed three small projects related to Python, GUI", "Developed the skills of Python Programming"],
-  },
-  {
-    position: "Web Development Intern",
-    company: "LetsGrowMore",
-    period: "June 2023 - July 2023",
-    type: "Virtual",
     description: [
-      "Executed three small projects related to HTML/CSS, JavaScript",
-      "Developed the skills of Web Development",
+      "Executed three small projects related to Python, GUI",
+      "Developed the skills of Python Programming",
     ],
   },
-]
+];
 
 export default function Experience() {
-  const ref = useRef(null)
-  const isInView = useInView(ref, { once: true, margin: "-100px" })
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
     <section id="experience" ref={ref} className="py-20 section-padding">
@@ -36,7 +39,9 @@ export default function Experience() {
         animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
         transition={{ duration: 0.5 }}
       >
-        <h2 className="text-3xl md:text-4xl font-bold mb-12 gradient-text text-center">Experience</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-12 gradient-text text-center">
+          Experience
+        </h2>
 
         <div className="space-y-8">
           {experienceData.map((item, index) => (
@@ -53,7 +58,9 @@ export default function Experience() {
                     <Briefcase size={20} />
                   </div>
                   <div>
-                    <h3 className="font-bold text-xl text-white">{item.position}</h3>
+                    <h3 className="font-bold text-xl text-white">
+                      {item.position}
+                    </h3>
                     <p className="text-purple-400">{item.company}</p>
                   </div>
                 </div>
@@ -72,5 +79,5 @@ export default function Experience() {
         </div>
       </motion.div>
     </section>
-  )
+  );
 }

@@ -13,8 +13,9 @@ const skillsData = {
     "JavaScript",
     "React",
     "Next.js",
+    "MySql",
   ],
-  Tools: ["Git/Github", "Packet tracer", "Framer"],
+  Tools: ["Git/Github", "Packet tracer", "Power Bi", "Ms Excel", "Framer"],
   "Operating Systems": ["Windows", "Linux"],
   "Course Work": [
     "Data Structures Algorithm",

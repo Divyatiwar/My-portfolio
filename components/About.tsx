@@ -28,14 +28,14 @@ export default function About() {
           >
             <p className="text-gray-300 mb-4">
               I am a Computer Science Engineering student at Jaypee University
-              of Engineering and Technology, Guna, with a passion for web
-              development and programming.
+              of Engineering and Technology, Guna, with a passion for Data
+              Analytics , web development and programming.
             </p>
             <p className="text-gray-300 mb-4">
-              With experience in both web development and Python programming
-              through internships at LetsGrowMore and CodeSoft, I have developed
-              a strong foundation in creating responsive and functional
-              applications.
+              With experience in both Data analytics and Python programming
+              through internships at Yoshops and CodeSoft, I have developed a
+              strong foundation in creating realtime data dashboards &
+              responsive and functional applications.
             </p>
             <p className="text-gray-300">
               I am constantly learning and exploring new technologies to enhance
@@ -68,14 +68,15 @@ export default function About() {
               <p className="text-gray-300 text-sm">
                 B.Tech in Computer Science
               </p>
-              <p className="text-gray-300 text-sm">CGPA: 8.2 (current)</p>
+              <p className="text-gray-300 text-sm">CGPA: 8.0 (current)</p>
             </div>
             <div className="bg-gray-900/50 p-4 rounded-lg border border-gray-800 shadow-lg hover:border-purple-500 transition-colors">
               <h3 className="font-bold text-lg mb-2 text-purple-400">
                 Interests
               </h3>
-              <p className="text-gray-300 text-sm">Web Development</p>
+              <p className="text-gray-300 text-sm">Data Analytics</p>
               <p className="text-gray-300 text-sm">Python Programming</p>
+              <p className="text-gray-300 text-sm">Web Development</p>
             </div>
           </motion.div>
         </div>
