@@ -7,6 +7,10 @@ import { Award } from "lucide-react";
 
 const certificationsData = [
   {
+    title: "Machine Learning A-Z,By Python",
+    issuer: "Certificate of completion with Udemy",
+  },
+  {
     title: "Power Bi for beginners",
     issuer: "Certificate of completion with simplilearn",
   },

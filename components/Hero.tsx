@@ -74,7 +74,7 @@ export default function Hero() {
           className="mt-8 flex flex-wrap justify-center gap-4"
         >
           <Button asChild className="bg-purple-600 hover:bg-purple-700">
-            <a href="/Divya_tiwari Resume.pdf" download>
+            <a href="/Divya_tiwarii.pdf" download>
               Download Resume
             </a>
           </Button>

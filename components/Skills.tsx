@@ -13,10 +13,24 @@ const skillsData = {
     "JavaScript",
     "React",
     "Next.js",
-    "MySql",
+    "SQL",
   ],
-  Tools: ["Git/Github", "Packet tracer", "Power Bi", "Ms Excel", "Framer"],
-  "Operating Systems": ["Windows", "Linux"],
+  Tools: [
+    "Git/Github",
+    "Packet tracer",
+    "Power Bi",
+    "Vs Code",
+    "claude.ai",
+    "Framer",
+  ],
+  " Libraries/Frameworks": [
+    "Scikitlearn",
+    "Numpy",
+    "Pandas",
+    "TensorFlow/Keras",
+    "FAST API",
+    "Flask",
+  ],
   "Course Work": [
     "Data Structures Algorithm",
 

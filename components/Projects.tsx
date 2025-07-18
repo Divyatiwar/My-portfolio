@@ -9,16 +9,24 @@ import Image from "next/image";
 
 const projectsData = [
   {
-    title: "DevMeet",
-    description: "A developer networking platform",
-    image: "/assets/devmeet.jpeg",
-    technologies: ["Next.js", "Supabase", "Prisma"],
-    details: [
-      "Developed a full-stack application using Next.js (frontend) and Supabase with Prisma (backend).",
-      "Implemented authentication, real-time database updates, and optimized API calls for better performance.",
+    title: " Heart Disease Prediction System",
+    description:
+      "An AI-powered system for predicting the risk of heart disease",
+    image: "/assets/heart.png",
+    technologies: [
+      "Python",
+      "Machine Learning",
+      "Ai",
+      "Database",
+      "Reactjs",
+      "javascript",
     ],
-    github: "https://github.com/Divyatiwar/DevMeet",
-    demo: "",
+    details: [
+      "Developed a machine learning-based Heart Disease Prediction system",
+      "that analyzes medical parameters to assess the risk of heart disease in individuals.",
+    ],
+    github: "https://github.com/Divyatiwar/Heart_disease_predictor",
+    demo: "https://heart-disease-predictor-tau.vercel.app/",
   },
   {
     title: "Weather Forecast App",

@@ -65,7 +65,7 @@ export default function Navbar() {
                 variant="outline"
                 className="border-purple-500 text-white hover:bg-purple-500/20"
               >
-                <a href="/Divya_Tiwari Resume.pdf" download>
+                <a href="/Divya_tiwarii.pdf" download>
                   Resume
                 </a>
               </Button>
