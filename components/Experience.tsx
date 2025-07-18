@@ -9,11 +9,11 @@ const experienceData = [
   {
     position: "Data Analytics Intern",
     company: "Yoshops",
-    period: "May 2025- Current",
+    period: "May 2025- July 2025",
     type: "Remote",
     description: [
-      "Working on real time data to clean,data minning,analysis and",
-      "understanding through creating dashboards by using powerbi tool.",
+      "Performed data cleaning and preprocessing using Python (Pandas) and Power BI, improving data quality and",
+      "Scraped and processed large datasets from web sources using Python (BeautifulSoup/Selenium), enabling predictive analysis",
     ],
   },
   {
@@ -22,8 +22,8 @@ const experienceData = [
     period: "June 2024 - July 2024",
     type: "Virtual",
     description: [
-      "Executed three small projects related to Python, GUI",
-      "Developed the skills of Python Programming",
+      "Strengthened core proficiency in Python programming, focusing on modular coding, error handling, and file operations.",
+      "Gained hands-on experience in problem-solving, OOP (Object-Oriented Programming), and real-world application building workflows.",
     ],
   },
 ];
